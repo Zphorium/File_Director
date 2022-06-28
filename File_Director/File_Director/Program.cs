@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace File_Director
 {
@@ -6,44 +6,50 @@ namespace File_Director
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("###########################################");
-            Console.WriteLine("Welcome to Zphorium's file director server");
-            Console.WriteLine("###########################################");
-            Console.WriteLine("First u need to chose your main language ");
-            Console.WriteLine("###########################################");
-            Console.Write("Use /language to see the language settings you can use : ");
+            Console.WriteLine(" ###########################################");
+            Console.WriteLine(" Welcome to Zphorium's file director server");
+            Console.WriteLine(" ###########################################");
+            Console.WriteLine(" First u need to chose your main language ");
+            Console.WriteLine(" ###########################################");
+            Console.Write(" Use /language to see the language settings you can use : ");
 
             string helpCommand = Console.ReadLine();
 
             if (helpCommand == "/language")
             {
-                Console.WriteLine("###########################");
-                Console.WriteLine("/eng");
-                Console.WriteLine("/aze");
-                Console.WriteLine("/ru");
-                Console.WriteLine("###########################");
+                Console.WriteLine(" ###########################");
+                Console.WriteLine(" /eng");
+                Console.WriteLine(" /aze");
+                Console.WriteLine(" /ru");
+                Console.WriteLine(" ###########################");
             }
             string secondStage = Console.ReadLine();
 
             if (secondStage == "/eng")
             {
-                Console.WriteLine("Hi. Pls enter your files :");
+                Console.WriteLine("  Hi. Pls enter your files :");
             }
 
-            if (secondStage == "/aze")
+            else if (secondStage == "/aze")
             {
-                Console.WriteLine("Salam. Zəhmət olmasa faylnızı daxil edin :");
+                Console.WriteLine("  Salam. Zəhmət olmasa faylnızı daxil edin :");
             }
 
-            if (secondStage == "ru")
+            else if (secondStage == "ru")
             {
-                Console.WriteLine("Privet. Pojalusta, vvedite vashi fayli ваши файлы :");
+                Console.WriteLine("  Privet. Pojalusta, vvedite vashi fayli ваши файлы :");
+            }
+            else
+            {
+                Console.WriteLine("  Your command is not found bye ");                
             }
 
-           
 
 
-            EnteredFiles enteredFile = new EnteredFiles(Console.ReadLine());
+            if (secondStage == "/eng" || secondStage == "/aze" || secondStage == "ru")
+            {
+             EnteredFiles enteredFile = new EnteredFiles(Console.ReadLine());
+            }
         }
     }
 
@@ -55,7 +61,7 @@ namespace File_Director
 
         public EnteredFiles(string filetyp)
         {
-            if(IsEnteredFilePdf(filetyp))
+            if (IsEnteredFilePdf(filetyp))
             {
                 _filetypsPdf = filetyp;
                 Console.WriteLine("Your file is 'Pdf'");
@@ -78,11 +84,11 @@ namespace File_Director
                 Console.WriteLine("Your entred data is not found");
             }
         }
-       
-       
+
+
         static bool IsEnteredFilePdf(string filetyp)
         {
-             if(!IsEntetredFileIsPdf(filetyp))
+            if (!IsEntetredFileIsPdf(filetyp))
             {
                 return false;
             }
@@ -117,7 +123,7 @@ namespace File_Director
             string extensionPdf = ".pdf";
             if (fileName.EndsWith(extensionPdf))
             {
-              return true;
+                return true;
             }
 
             return false;
