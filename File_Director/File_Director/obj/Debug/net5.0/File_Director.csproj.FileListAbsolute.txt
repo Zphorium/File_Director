@@ -1,0 +1,16 @@
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\bin\Debug\net5.0\File_Director.exe
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\bin\Debug\net5.0\File_Director.deps.json
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\bin\Debug\net5.0\File_Director.runtimeconfig.json
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\bin\Debug\net5.0\File_Director.runtimeconfig.dev.json
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\bin\Debug\net5.0\File_Director.dll
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\bin\Debug\net5.0\File_Director.pdb
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.csproj.AssemblyReference.cache
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.AssemblyInfoInputs.cache
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.AssemblyInfo.cs
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.csproj.CoreCompileInputs.cache
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.dll
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\refint\File_Director.dll
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.pdb
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\File_Director.genruntimeconfig.cache
+C:\Users\zulfu\OneDrive\Desktop\New lesson array\File_Director\File_Director\obj\Debug\net5.0\ref\File_Director.dll
